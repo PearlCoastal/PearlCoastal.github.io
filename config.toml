@@ -2,3 +2,46 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'anatole'
+
+[params]
+title = "Pearl Coastal"
+author = "Pearl Coastal"
+description = ""
+profilePicture = "/avatar.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/PearlCoastal"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:treasuresff@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.cn/incareer/in/ACoAADSvONYBG-Gw7SmfGqFucexllKd9mAiIJdM"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+copyright = "2020-{{ YEAR }}"
